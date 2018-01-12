@@ -15,13 +15,13 @@ Replace the libcoldstart.so file in **/data/data/com.facebook.pages.app/lib-xzs*
 
 We need to patch **0x0028E974** and **0x0028E976**:
 
-![before_patching](https://raw.githubusercontent.com/knoobdev/Bypass-Facebook-Page-Manager-SLL-Pinning/master/arm/before_patch.jpg?54119)
+![before_patching](https://raw.githubusercontent.com/knoobdev/Bypass-Facebook-Page-Manager-SSL-Pinning/master/arm/before_patch.jpg?54119)
 
 
 After patching these offsets to **0xB1C4** and **0xB948**, patched lib should be like this:
 
 
-![after_patching](https://raw.githubusercontent.com/knoobdev/Bypass-Facebook-Page-Manager-SLL-Pinning/master/arm/after_patch.jpg?54119)
+![after_patching](https://raw.githubusercontent.com/knoobdev/Bypass-Facebook-Page-Manager-SSL-Pinning/master/arm/after_patch.jpg?54119)
 
 ---
 
